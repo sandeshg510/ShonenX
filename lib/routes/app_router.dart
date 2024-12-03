@@ -55,7 +55,7 @@ class _AppRouterState extends State<AppRouter> {
         selectedItemColor: colorScheme.onSurface,
         unselectedItemColor: colorScheme.onSurface.withOpacity(0.5),
         enableFloatingNavBar: true,
-        marginR: const EdgeInsets.symmetric(horizontal: 90, vertical: 20),
+        marginR:  EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width*0.2, vertical: 20),
         splashBorderRadius: 50,
         borderRadius: 500,
         enablePaddingAnimation: true,
